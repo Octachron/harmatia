@@ -9,11 +9,11 @@ Harmatia uplifts Ocaml error messages to the world of unicode:
 
 |       Before      |    After    |
 |-------------------|-------------|
-|         ->        |      ⟶      |
-|       [|1|]       |     ⟦1⟧     |
-|        'a         |      α      |
-|        ...        |      …      |
-|         ..        |      ‥      |
+|         ->        |      ⟶     |
+|       [&#124;1&#124;]     |     ⟦1⟧    |
+|        'a         |      α       |
+|        ...        |      …       |
+|         ..        |      ‥       |
 | < f:'a.'a -> 'a > | ⟨f:α.α ⟶ α⟩ |
 
 ## How to use harmatia
