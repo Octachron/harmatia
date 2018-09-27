@@ -8,7 +8,7 @@ bug-reports: "https://github.com/Octachron/harmatia/issues"
 license: "lgpl-2+ocaml linking exception"
 dev-repo: "https://github.com/Octachron/harmatia.git"
 build: [
-  [make "all"]
+  ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: []
-available: [ ocaml-version >= "4.04.0" & ocaml-version < "4.05.0" ]
+available: [ ocaml-version = "4.07.0"]

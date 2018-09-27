@@ -1,6 +1,0 @@
-name="harmatia"
-description="Prettify compiler error messages"
-version="0.1"
-requires = "compiler-libs.common"
-archive(byte, plugin) = "harmatia.cma"
-archive(native, plugin) = "harmatia.cmxs"

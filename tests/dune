@@ -1,0 +1,9 @@
+(alias
+  (name runtest)
+  (action
+    (chdir %{workspace_root}
+        (run %{ocamlopt} -i -plugin %{dep:../lib/harmatia.cmxs}
+	%{dep:basic.mli})
+     )
+  )
+)
